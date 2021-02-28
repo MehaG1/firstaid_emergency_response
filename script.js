@@ -8,12 +8,14 @@ function myFunction() {
   }
 }
 var slideIndex = 0;
-showSlides();
+function start(){
+  showSlides();
+}
 
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  console.log(slides[0])
+  console.log(slides[0]);
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
